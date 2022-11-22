@@ -7,7 +7,6 @@ new ScrollMagic.Scene({
     reverse: true 
 })
 .setClassToggle("#security", "enlarge") // add class toggle
-.addIndicators()
 .addTo(controller1);
 
 var controller2 = new ScrollMagic.Controller();
@@ -19,7 +18,6 @@ new ScrollMagic.Scene({
     reverse: true 
 })
 .setClassToggle("#desk", "enlarge") // add class toggle
-.addIndicators()
 .addTo(controller2);
 
 var controller3 = new ScrollMagic.Controller();
@@ -31,7 +29,6 @@ new ScrollMagic.Scene({
     reverse: true 
 })
 .setClassToggle("#video1", "enlarge") // add class toggle
-.addIndicators()
 .addTo(controller3);
 
 var controller4 = new ScrollMagic.Controller();
@@ -43,7 +40,6 @@ new ScrollMagic.Scene({
     reverse: true 
 })
 .setClassToggle("#video5", "enlarge") // add class toggle
-.addIndicators()
 .addTo(controller4);
 
 var controller5 = new ScrollMagic.Controller();
@@ -55,7 +51,6 @@ new ScrollMagic.Scene({
     reverse: true 
 })
 .setClassToggle("#video6", "enlarge") // add class toggle
-.addIndicators()
 .addTo(controller5);
 
 var controller6 = new ScrollMagic.Controller();
@@ -67,7 +62,6 @@ new ScrollMagic.Scene({
     reverse: true 
 })
 .setClassToggle("#video2", "enlarge") // add class toggle
-.addIndicators()
 .addTo(controller6);
 
 var controller7 = new ScrollMagic.Controller();
@@ -79,7 +73,6 @@ new ScrollMagic.Scene({
     reverse: true 
 })
 .setClassToggle("#video3", "enlarge") // add class toggle
-.addIndicators()
 .addTo(controller7);
 
 var controller8 = new ScrollMagic.Controller();
@@ -91,7 +84,6 @@ new ScrollMagic.Scene({
     reverse: true 
 })
 .setClassToggle("#video4", "enlarge") // add class toggle
-.addIndicators()
 .addTo(controller8);
 
 let cameras = document.getElementById('cameras');
